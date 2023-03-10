@@ -11,7 +11,7 @@
 
 > ### *With a wide variety of Food products and shopping outlets in the marketplace, there is so much data available to analyze what Food Items sell! The purpose of this analysis is to delve into various Food Item properties and types of Outlets to see if we can predict Food Item Sales. The goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.*
 
-###**Data:**
+### **Data:**
 
 ---
 
@@ -19,13 +19,13 @@
 * ### [Original data source](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)
 * ### For this dataset, there were 8,523 rows and 12 columns.
 
-###**Data Dictionary:**
+### **Data Dictionary:**
 
 ---
 
 ![image](https://drive.google.com/uc?id=1kdsKuuQa6PA5zx6PcI_J7amlONsbFaXj)
 
-##**Data Cleaning**
+## **Data Cleaning**
 
 ---
 
@@ -128,10 +128,15 @@
 
 ## **3 Is there a correlation between Food Item Sales and Item Price by Outlet Size?**
 ![image](https://drive.google.com/uc?id=1j2lTadlfWn8IVQljpRy_N8-wKOKo0fDR)
-
+* #### This lmplot shows the line of best fit. 
+* #### The most sales of food items occurred at Medium-size Outlets. 
+* #### Medium supermarket outlets are the most common size.
+* #### Food sales are the highest, based on the most common Supermarket size.
+* #### There is a the moderate positive correlation between Food Item Retail Price and Food Item Sales, by Outlet Size.
+* #### In conclusion, the greater food sales reflect the most common size of Supermarket : Medium-sized Outlets.
 <br />
 
-##**Machine Learning**
+## **Machine Learning**
 ---
 *  ### Machine Learning was performed on this models to find the best model that predicts Food Item Sales based on Food Item & Outlet properties:
 
@@ -154,8 +159,8 @@
 * #### The median Item Outlet Sales is 1,794.33. On average, the Item Outlet Sales is off by 1,133.80 or 63.18%. 
 * #### The Optimized Random Forest model predicts within 1,133.80 of the Item Outlet Sales, which is a low-to-medium correlation. Given the wide variety of items and sales, this seems more of a middle of the road optimized model.
 
-###**Recommendation**
+### **Recommendation**
 
 ---
 
-My recommendation is the optimized Random Forest Model is a lowto-medium correlation good predictor of Food Item Sales.
+#### My recommendation is the optimized Random Forest Model is a lowto-medium correlation good predictor of Food Item Sales.
