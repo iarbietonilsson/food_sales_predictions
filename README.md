@@ -163,4 +163,4 @@
 
 ---
 
-#### My recommendation is the optimized Random Forest Model is a lowto-medium correlation good predictor of Food Item Sales.
+#### My recommendation is the optimized Random Forest Model as a lowto-medium correlation good predictor of Food Item Sales.
